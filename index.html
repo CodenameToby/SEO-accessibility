@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <! Edited the title element to a more detailed description of the webpage.>
+    <title>Horiseon landing page</title>
 </head>
 
 <! First I changed every div element to a semantic element >
@@ -13,14 +14,15 @@
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav> <! Since this list is to navigate, I changed to the nav element. Also changed in stylesheet.>
             <ul>
+                <! Added alt attribute alt="If not clickable, call XXX-XXXX" to each image >
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a alt="If not clickable, call XXX-XXXX" href="#search-engine-optimization">Search Engine Optimization </a> 
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a alt="If not clickable, call XXX-XXXX" href="#online-reputation-management">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
+                    <a alt="If not clickable, call XXX-XXXX" href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
         </nav>
@@ -29,21 +31,22 @@
     <main class="content"> <! Since this section is the main focus of the page, I used main element.>
         <! Added id="search-engine-optimization" to allow same functionality as other 2 links>
         <section id="search-engine-optimization" class="main-segments"> <! Since this is a standalone section, as part of the main focus of the page, I used section element for this and the other 2 blocks>
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <! Added alt attribute alt="If you cannot view this image, call XXX-XXXX" to each image >
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="If you cannot view this image, call XXX-XXXX"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
         <section id="online-reputation-management" class="main-segments">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="If you cannot view this image, call XXX-XXXX"/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
         <section id="social-media-marketing" class="main-segments">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="If you cannot view this image, call XXX-XXXX"/>
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
